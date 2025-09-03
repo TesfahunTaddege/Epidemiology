@@ -10,6 +10,14 @@ library(ggplot2)
 
 ui <- fluidPage(
   titlePanel("Applied Calculus for Public Health and Epidemiology"),
+ fluidRow(
+    column(12,
+           h5("Author: Your Name Here"),
+           h5("Email: your.email@domain.com"),
+           h5("Organization: Your Organization Here"),
+           hr()
+    )
+  ),
   sidebarLayout(
     sidebarPanel(
       h4("Choose Scenario"),
@@ -199,4 +207,5 @@ server <- function(input, output) {
 }
 
 shinyApp(ui, server)
+
 
