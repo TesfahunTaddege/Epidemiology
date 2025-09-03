@@ -12,9 +12,9 @@ ui <- fluidPage(
   titlePanel("Applied Calculus for Public Health and Epidemiology"),
  fluidRow(
     column(12,
-           h5("Author: Your Name Here"),
-           h5("Email: your.email@domain.com"),
-           h5("Organization: Your Organization Here"),
+           h5("Tesfahun Taddege"),
+           h5("ttaddege@gmail.com"),
+           h5("Amhara Public Health Institute (APHI), Bahir Dar, Ethiopia"),
            hr()
     )
   ),
@@ -207,5 +207,6 @@ server <- function(input, output) {
 }
 
 shinyApp(ui, server)
+
 
 
