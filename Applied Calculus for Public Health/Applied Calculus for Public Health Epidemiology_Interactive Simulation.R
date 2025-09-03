@@ -1,6 +1,8 @@
 ############################################################
-# Shiny App: Applied Calculus for Public Health and Epidemiology
-# Extended with Multivariable Calculus & Extrema
+# Author: Tesfahun Taddege
+# Email: ttaddege@gmail.com
+# Project: Shiny App: Applied Calculus for Public Health and Epidemiology
+# Date: Aug 01, 2025
 ############################################################
 
 library(shiny)
@@ -197,3 +199,4 @@ server <- function(input, output) {
 }
 
 shinyApp(ui, server)
+
